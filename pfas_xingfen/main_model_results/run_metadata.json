@@ -1,0 +1,10 @@
+{
+  "n_records": 263,
+  "n_selected_features": 30,
+  "best_model": "CatBoost",
+  "pooled_oof_auc": 0.8483981693363845,
+  "pooled_oof_accuracy": 0.8288973384030418,
+  "best_threshold": 0.45469298401013375,
+  "master_training_auc": 0.9768306636155606,
+  "master_training_accuracy_at_oof_threshold": 0.908745247148289
+}

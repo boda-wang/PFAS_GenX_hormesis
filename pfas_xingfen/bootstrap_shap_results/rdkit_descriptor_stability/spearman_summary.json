@@ -1,0 +1,10 @@
+{
+  "n_replicates": 500,
+  "mean_rho": 0.6360784313725489,
+  "median_rho": 0.6584107327141382,
+  "sd_rho": 0.13752582416471537,
+  "ci95_low": 0.30846233230134157,
+  "ci95_high": 0.8596491228070176,
+  "rank_scope": "18 RDKit descriptors only",
+  "primary_rank_source": "CatBoost refit on the full reference dataset using the fixed Bootstrap feature order"
+}

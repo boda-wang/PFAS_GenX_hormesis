@@ -1,0 +1,62 @@
+{
+  "n_bootstrap_replicates": 500,
+  "spearman_rank_correlation": {
+    "mean": 0.6360784313725489,
+    "median": 0.6584107327141382,
+    "ci95_low": 0.30846233230134157,
+    "ci95_high": 0.8596491228070176
+  },
+  "rank_scope": "18 RDKit descriptors only",
+  "top_descriptors_by_bootstrap_mean_abs_shap": [
+    {
+      "descriptor": "VSA_EState5",
+      "bootstrap_mean_abs_shap": 0.1253002742959427,
+      "shap_ci95_low": 0.0586626245537101,
+      "shap_ci95_high": 0.2265642597633184,
+      "primary_rank": 2.0,
+      "bootstrap_median_rank": 1.0,
+      "rank_ci95_low": 1.0,
+      "rank_ci95_high": 4.0
+    },
+    {
+      "descriptor": "VSA_EState2",
+      "bootstrap_mean_abs_shap": 0.0995694209901535,
+      "shap_ci95_low": 0.0351543613657361,
+      "shap_ci95_high": 0.2248677204915526,
+      "primary_rank": 3.0,
+      "bootstrap_median_rank": 2.0,
+      "rank_ci95_low": 1.0,
+      "rank_ci95_high": 10.524999999999975
+    },
+    {
+      "descriptor": "VSA_EState7",
+      "bootstrap_mean_abs_shap": 0.0804460058156146,
+      "shap_ci95_low": 0.0390110199437196,
+      "shap_ci95_high": 0.1576912238233674,
+      "primary_rank": 4.0,
+      "bootstrap_median_rank": 3.0,
+      "rank_ci95_low": 1.0,
+      "rank_ci95_high": 8.0
+    },
+    {
+      "descriptor": "SlogP_VSA3",
+      "bootstrap_mean_abs_shap": 0.070982897104997,
+      "shap_ci95_low": 0.0282064628394421,
+      "shap_ci95_high": 0.1790514863148683,
+      "primary_rank": 1.0,
+      "bootstrap_median_rank": 4.0,
+      "rank_ci95_low": 1.0,
+      "rank_ci95_high": 14.0
+    },
+    {
+      "descriptor": "MolLogP",
+      "bootstrap_mean_abs_shap": 0.0537241559857036,
+      "shap_ci95_low": 0.027226033388484,
+      "shap_ci95_high": 0.0948676065928529,
+      "primary_rank": 5.0,
+      "bootstrap_median_rank": 5.0,
+      "rank_ci95_low": 2.0,
+      "rank_ci95_high": 13.524999999999975
+    }
+  ]
+}
